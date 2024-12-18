@@ -1,21 +1,24 @@
-import './style.scss'
+import Link from '../Link/Link';
+
 import searchIcon from './search.svg';
+
+import './style.scss';
 
 const SearchBar = () => {
   return (
     <div className="search-bar">
       <div className="search-bar__btns-wrapper">
-        <button className="search-bar__btn" type="button">
-          Anywhere
-        </button>
+        <div className="search-bar__btn">
+          <Link text="Anywhere" />
+        </div>
 
-        <button className="search-bar__btn" type="button">
-          Any week
-        </button>
+        <div className="search-bar__btn">
+          <Link text="Any week" />
+        </div>
 
-        <button className="search-bar__btn" type="button">
-          Add guests
-        </button>
+        <div className="search-bar__btn">
+          <Link text="Add guests" style="light" />
+        </div>
       </div>
 
       <button className="search-bar__btn-search" type="button">
