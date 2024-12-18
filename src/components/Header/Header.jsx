@@ -1,9 +1,24 @@
-import './header.css';
+import Logo from '../Logo/Logo';
+import SearchBar from '../SearchBar/SearchBar';
 
-function Header () {
+import './header.scss';
+
+function Header() {
   return (
     <header className='header'>
-      <h1></h1>
+      <div className="container">
+        <div className="header__row">
+          <Logo />
+
+          <div className="header__search">
+            <SearchBar />
+          </div>
+
+          <div className="header__user">
+            header
+          </div>
+        </div>
+      </div>
     </header>
   )
 }

@@ -1,0 +1,15 @@
+
+.header {
+
+  &__row {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+  }
+
+  &__user {
+
+  }
+}

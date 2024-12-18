@@ -1,8 +1,8 @@
-import './main.css';
+import './main.scss';
 
 const Main = () => {
   return ( 
-    <main className='main'></main>
+    <main className='main'>MAIN</main>
    );
 }
  
