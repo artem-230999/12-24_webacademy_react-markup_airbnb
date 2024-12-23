@@ -1,3 +1,4 @@
+import Account from '../Account/Account';
 import Link from '../Link/Link';
 import globIcon from './globe.svg';
 
@@ -12,7 +13,9 @@ const UserMenu = () => {
       <div className="user-menu__local">
         <Link icon={globIcon} />
       </div>
-      <div className="user-menu__users">User</div>
+      <div className="user-menu__user">
+        <Account />
+      </div>
     </div>
   );
 }
